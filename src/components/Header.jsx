@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// logo moved to public/imgs — use absolute public path instead of importing
+import logo from "../assets/imgs/logo.png";
 import { RiCloseLine, RiMenu3Line } from "@remixicon/react";
 import { navItems } from "../constant/data";
 
@@ -33,7 +33,8 @@ export default function Header() {
         >
           {/* logo */}
           <motion.a variants={variants.fadeInUp} href="#">
-            <img src="/imgs/logo.png" alt="logo" width={150} height={50} />
+            {/* files placed in `public/` are served from the project root — use `/imgs/...` not `/public/imgs/...` */}
+            <img src={logo} alt="logo" width={150} height={50} />
           </motion.a>
           {/* mobile menu */}
           <nav className={`navbar ${isOpen ? "active" : ""}`}>

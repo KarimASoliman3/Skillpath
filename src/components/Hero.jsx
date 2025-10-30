@@ -1,4 +1,6 @@
-// images moved to public/imgs — use public paths directly
+import shape1 from "../assets/imgs/shape-1.png";
+import shape2 from "../assets/imgs/shape-2.png";
+import heroBanner from "../assets/imgs/hero-banner.png";
 import { heroLogos } from "../constant/data";
 import { RiPlayFill } from "@remixicon/react";
 import Marquee from "react-fast-marquee";
@@ -26,24 +28,14 @@ export default function Hero() {
                 variants={variants.fadeInUp}
                 className="absolute top-0 left-0"
               >
-                <img
-                  src="/imgs/shape-1.png"
-                  alt="title shape"
-                  width={39}
-                  height={43}
-                />
+                <img src={shape1} alt="title shape" width={39} height={43} />
               </motion.span>
               <motion.div
                 variants={variants.fadeInUp}
                 className="flex items-center bg-white-99 border border-white-95 rounded-lg p-3.5 justify-center gap-2.5 max-w-max mx-auto flex-wrap text-center"
               >
                 <span className="">
-                  <img
-                    src="/imgs/shape-2.png"
-                    alt="title shape"
-                    width={48}
-                    height={48}
-                  />
+                  <img src={shape2} alt="title shape" width={48} height={48} />
                 </span>
                 <h1 className="text-2xl md:text-4xl">
                   <span className="text-orange-50"> Unlock </span>
@@ -110,7 +102,7 @@ export default function Hero() {
             className="relative rounded-xl overflow-hidden mt-10 md:mt-14 lg:mt-[50px] max-w-[920px] w-full h-[500px] mx-auto"
           >
             <img
-              src="/imgs/hero-banner.png"
+              src={heroBanner}
               alt="hero-banner"
               width={940}
               height={500}

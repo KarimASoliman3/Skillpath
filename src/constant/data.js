@@ -35,87 +35,109 @@ export const navItems = [
   },
 ];
 
+import logo1 from "../assets/imgs/logo-1.png";
+import logo2 from "../assets/imgs/logo-2.png";
+import logo3 from "../assets/imgs/logo-3.png";
+import logo4 from "../assets/imgs/logo-4.png";
+import logo5 from "../assets/imgs/logo-5.png";
+import logo6 from "../assets/imgs/logo-6.png";
+import logo7 from "../assets/imgs/logo-7.png";
+
 export const heroLogos = [
   {
     id: 1,
-    img: "/imgs/logo-1.png",
+    img: logo1,
     width: 56,
   },
   {
     id: 2,
-    img: "/imgs/logo-2.png",
+    img: logo2,
     width: 82,
   },
   {
     id: 3,
-    img: "/imgs/logo-3.png",
+    img: logo3,
     width: 57,
   },
   {
     id: 4,
-    img: "/imgs/logo-4.png",
+    img: logo4,
     width: 64,
   },
   {
     id: 5,
-    img: "/imgs/logo-5.png",
+    img: logo5,
     width: 78,
   },
   {
     id: 6,
-    img: "/imgs/logo-6.png",
+    img: logo6,
     width: 75,
   },
   {
     id: 7,
-    img: "/imgs/logo-7.png",
+    img: logo7,
     width: 65,
   },
 ];
 
+import icon1 from "../assets/imgs/icon-1.png";
+import icon2 from "../assets/imgs/icon-2.png";
+import icon3 from "../assets/imgs/icon-3.png";
+import icon4 from "../assets/imgs/icon-4.png";
+import icon5 from "../assets/imgs/icon-5.png";
+import icon6 from "../assets/imgs/icon-6.png";
+
 export const benefitItems = [
   {
     id: 1,
-    icon: "/imgs/icon-1.png",
+    icon: icon1,
     title: "Flexible Learning Schedule",
     text: "Fit your coursework around your existing commitments and obligations.",
   },
   {
     id: 2,
-    icon: "/imgs/icon-2.png",
+    icon: icon2,
     title: "Expert Instruction",
     text: "Learn from industry experts who have hands-on experience in design and development.",
   },
   {
     id: 3,
-    icon: "/imgs/icon-3.png",
+    icon: icon3,
     title: "Diverse Course Offerings",
     text: "Explore a wide range of design and development courses covering various topics.",
   },
   {
     id: 4,
-    icon: "/imgs/icon-4.png",
+    icon: icon4,
     title: "Updated Curriculum",
     text: "Access courses with up-to-date content reflecting the latest trends and industry practices.",
   },
   {
     id: 5,
-    icon: "/imgs/icon-5.png",
+    icon: icon5,
     title: "Practical Projects and Assignments",
     text: "Develop a portfolio showcasing your skills and abilities to potential employers.",
   },
   {
     id: 6,
-    icon: "/imgs/icon-6.png",
+    icon: icon6,
     title: "Interactive Learning Environment",
     text: "Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.",
   },
 ];
 
+import courseImg1 from "../assets/imgs/course-img-1.png";
+import courseImg2 from "../assets/imgs/course-img-2.png";
+import courseImg3 from "../assets/imgs/course-img-3.png";
+import courseImg4 from "../assets/imgs/course-img-4.png";
+import courseImg5 from "../assets/imgs/course-img-5.png";
+import courseImg6 from "../assets/imgs/course-img-6.png";
+
 export const coursesSecItems = [
   {
     id: 1,
-    img: "/imgs/course-img-1.png",
+    img: courseImg1,
     title: "Web Design Fundamentals",
     text: "Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually and user-friendly websites.",
     instructor: "By John Smith",
@@ -123,7 +145,7 @@ export const coursesSecItems = [
   },
   {
     id: 2,
-    img: "/imgs/course-img-2.png",
+    img: courseImg2,
     title: "Mobile App Development",
     text: "Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.",
     instructor: "By David Brown",
@@ -131,7 +153,7 @@ export const coursesSecItems = [
   },
   {
     id: 3,
-    img: "/imgs/course-img-3.png",
+    img: courseImg3,
     title: "Front-End Web Development",
     text: "Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.",
     instructor: "By Michael Lee",
@@ -139,7 +161,7 @@ export const coursesSecItems = [
   },
   {
     id: 4,
-    img: "/imgs/course-img-4.png",
+    img: courseImg4,
     title: "UI/UX Design",
     text: "Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.",
     instructor: "By John Smith",
@@ -147,7 +169,7 @@ export const coursesSecItems = [
   },
   {
     id: 5,
-    img: "/imgs/course-img-5.png",
+    img: courseImg5,
     title: "Graphic Design for Beginners",
     text: "Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.",
     instructor: "By Sarah Thompson",
@@ -155,7 +177,7 @@ export const coursesSecItems = [
   },
   {
     id: 6,
-    img: "/imgs/course-img-6.png",
+    img: courseImg6,
     title: "Advanced JavaScript",
     text: "Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.",
     instructor: "By Jennifer Wilson",
@@ -163,30 +185,35 @@ export const coursesSecItems = [
   },
 ];
 
+import testiImg1 from "../assets/imgs/testi-img-1.png";
+import testiImg2 from "../assets/imgs/testi-img-2.png";
+import testiImg3 from "../assets/imgs/testi-img-3.png";
+import testiImg4 from "../assets/imgs/testi-img-4.png";
+
 export const testimonialsItems = [
   {
     id: 1,
     text: "The web design course provided a solid foundation for me. The instructors were knowledgeable and supportive, and the interactive learning environment was engaging. I highly recommend it!",
     author: "Sarah L",
-    img: "/imgs/testi-img-1.png",
+    img: testiImg1,
   },
   {
     id: 2,
     text: "The UI/UX design course exceeded my expectations. The instructor's expertise and practical assignments helped me improve my design skills. I feel more confident in my career now.",
     author: "Jason M",
-    img: "/imgs/testi-img-2.png",
+    img: testiImg2,
   },
   {
     id: 3,
     text: "The mobile app development course was fantastic! The step-by-step tutorials and hands-on projects helped me grasp the concepts easily. I'm now building my own app. Great course!",
     author: "Emily R",
-    img: "/imgs/testi-img-3.png",
+    img: testiImg3,
   },
   {
     id: 4,
     text: "I enrolled in the graphic design course as a beginner, and it was the perfect starting point. The instructor's guidance and feedback improved my design abilities significantly. I'm grateful for this course!",
     author: "Michael K",
-    img: "/imgs/testi-img-4.png",
+    img: testiImg4,
   },
 ];
 
