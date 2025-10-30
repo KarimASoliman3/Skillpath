@@ -1,4 +1,4 @@
-import logo from "../../src/assets/imgs/logo.png";
+import logo from "../assets/imgs/logo.png";
 import { contactInfo, footerLists, socialIcons } from "../constant/data";
 // import motion
 import { motion } from "motion/react";
@@ -8,10 +8,12 @@ export default function Footer() {
   return (
     <>
       <footer className="pt-14  bg-white">
-        <motion.div variants={variants.staggerContainer}
+        <motion.div
+          variants={variants.staggerContainer}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true}}>
+          viewport={{ once: true }}
+        >
           <div className="container">
             {/* footer top */}
             <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1fr_0.7fr_0.7fr_0.7fr] xl:grid-cols-[1fr_0.5fr_0.5fr_0.5fr] mb-10">
@@ -37,7 +39,11 @@ export default function Footer() {
               </motion.div>
               {/* footer list  */}
               {footerLists.map((item) => (
-                <motion.div variants={variants.fadeInUp} key={item.id} className="space-y-3">
+                <motion.div
+                  variants={variants.fadeInUp}
+                  key={item.id}
+                  className="space-y-3"
+                >
                   <p className="text-lg font-bold">{item.title}</p>
                   <ul className="space-y-2.5">
                     {item.links.map((link, index) => (
@@ -54,7 +60,10 @@ export default function Footer() {
                 </motion.div>
               ))}
               {/* social profiles */}
-              <motion.div variants={variants.fadeInUp} className="text-lg font-bold">
+              <motion.div
+                variants={variants.fadeInUp}
+                className="text-lg font-bold"
+              >
                 <p>Social Profiles</p>
                 <div className="flex mt-5 gap-3">
                   {socialIcons.map((icon) => (
@@ -68,7 +77,10 @@ export default function Footer() {
           </div>
           {/* footer bootom */}
           <div className="bg-white-99 border-t border-t-white-95 shadow-lg py-3 ">
-            <motion.p variants={variants.fadeInUp} className=" text-center font-medium">
+            <motion.p
+              variants={variants.fadeInUp}
+              className=" text-center font-medium"
+            >
               &copy; {new Date().getFullYear()}
               <span className="font-bold text-orange-600"> KarimASoliman3</span>
               . All rights reserved.
