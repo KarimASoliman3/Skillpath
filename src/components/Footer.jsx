@@ -1,4 +1,4 @@
-import logo from "../assets/imgs/logo.png";
+import logo from "../../public/imgs/logo.png";
 import { contactInfo, footerLists, socialIcons } from "../constant/data";
 // import motion
 import { motion } from "motion/react";
